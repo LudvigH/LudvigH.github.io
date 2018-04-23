@@ -1,0 +1,33 @@
+{
+  "name": "Ludvig-Portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "dev-server": "live-server",
+    "start": "npm-run-all --parallel watch:sass dev-server",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "concat:css": "concat -o css/style.concat.css css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.concat.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.8.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.2",
+    "postcss-cli": "^5.0.0",
+    "sass": "^1.2.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}

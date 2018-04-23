@@ -1,0 +1,18 @@
+.contact {
+  &__heading {
+
+  }
+
+  &__paragraph {
+    padding: .5rem 0;
+  }
+
+  &__list {
+    list-style: square;
+    margin: 1rem;
+  }
+
+  &__list-item {
+    margin: 1rem;
+  }
+}

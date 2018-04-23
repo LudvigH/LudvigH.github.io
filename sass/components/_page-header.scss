@@ -1,0 +1,16 @@
+.page-header {
+  // display: flex;
+  // justify-content: center;
+  color: $color-secondary;
+  margin: 2rem 0;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  @media only screen and (max-width: $bp-small) {
+    text-align: center;
+  }
+  h1 {
+    font-size: 4.8rem;
+    // font-weight: 400;
+    letter-spacing: 8px;
+  }
+}

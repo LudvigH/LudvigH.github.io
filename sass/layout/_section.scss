@@ -1,0 +1,15 @@
+
+.section {
+
+  background: $color-secondary;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px $color-black;
+  color: $color-primary;
+  margin: 2rem 0;
+  overflow: hidden;
+
+  & ul, p {
+    animation: opacityChange .5s;
+  }
+
+}

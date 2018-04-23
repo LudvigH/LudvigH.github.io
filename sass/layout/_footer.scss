@@ -1,0 +1,18 @@
+.footer {
+  // background-image: linear-gradient(
+  //   to right bottom,
+  //   rgba($color-secondary, .8),
+  //   rgba($color-secondary, 1));
+
+  background-color: $color-secondary;
+  // color: $color-black;
+  color: $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+
+  min-height: 20vh;
+
+}

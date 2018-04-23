@@ -1,0 +1,38 @@
+// COLORS
+// https://color.adobe.com/sv/create/color-wheel/?base=2&rule=Complementary&selected=3&name=Mitt%20Color-tema&mode=rgb&rgbvalues=0.00392156862745099,0.6980392156862745,0.6409226844880518,1,1,1,1,1,1,0.6980392156862745,0.2784313725490196,0.07450980392156863,1,1,1&swatchOrder=0,1,2,3,4
+// $color-primary: #01B2AC;
+// $color-secondary: #B24713;
+// $color-primary: #000;
+// $color-secondary: #fff;
+$color-primary: #0F1626;
+$color-secondary: #F5F5F5;
+$color-primary: #F5F5F5;
+$color-secondary: #0F1626;
+$color-tertiary: #B28A2B;
+
+$color-palette-1: #7F7F7F;
+$color-palette-2: #9FFFFC;
+$color-palette-3: #FFFFFF;
+$color-palette-4: #187F7D;
+$color-palette-5: #CCCCCC;
+
+$color-white: #eee;
+$color-black: #000;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark-1: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+// font
+$default-font-size: 1.6rem;
+
+// Responsive breakpoints
+$bp-largest: 75em;  // 1200px. should use ems instead of px.
+$bp-large: 62.5em;  // 1000px.
+$bp-medium: 50em;   // 800px;
+// $bp-small: 37.5em;   // 600px;
+$bp-small: 41.25em;   // 660px;
+$bp-smallest: 31.25em;   // 500px;

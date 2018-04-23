@@ -1,0 +1,6 @@
+.backlink {
+  text-decoration: underline;
+    &:hover {
+      color: $color-tertiary;
+    }
+}
