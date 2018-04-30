@@ -36,6 +36,7 @@
 
     padding: 0 .5rem;
     position: relative;
+    opacity: .9;
 
     &::after {
       content: "";
@@ -54,23 +55,22 @@
     }
 
     &--active {
-      // text-decoration: underline;
-      // border-bottom: 3px solid $color-primary;
+
       font-weight: 900;
     }
 
     &:hover {
       cursor: pointer;
-      // border-bottom: 2px solid $color-primary;
+      opacity:1;
 
       &::after {
         visibility: visible;
         width: 75%;
       }
 
-
-
     }
+
+    
 
   }
 }

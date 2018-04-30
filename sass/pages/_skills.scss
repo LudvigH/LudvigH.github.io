@@ -1,29 +1,27 @@
 .skills {
 
   display: grid;
-  // grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr)); // This line makes it responsive
   grid-column-gap: 2rem;
   min-height: 50vh;
   padding: 2rem;
 
   &__item {
-    // border:1px solid black;
+
     margin: 1rem auto;
 
-    // padding: 4rem;
     @media only screen and (max-width: $bp-small) {
       margin: 1rem 2rem;
     }
+
     @media only screen and (max-width: $bp-smallest) {
-      // margin: 1rem auto;
       font-size: 1.8rem;
     }
   }
 
   &__heading {
     @media only screen and (max-width: $bp-smallest) {
-      // margin: 1rem auto;
+
       font-size: 1.8rem;
     }
   }
